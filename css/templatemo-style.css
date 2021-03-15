@@ -718,7 +718,38 @@ header {
   transition: all .6s .8s;
 }
 
+/* Import portfolio */
 
+#video .video-item h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#video .video-item img {
+  transition: all ease-in-out 0.4s;
+  width: 100%;
+}
+
+#video .video-item:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#video .video-item:hover .video-overlay {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video .video-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 
 /* Blog Style */
@@ -1074,3 +1105,4 @@ header {
   }
 
 }
+
