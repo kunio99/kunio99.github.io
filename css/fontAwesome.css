@@ -4,6 +4,13 @@
  */
 /* FONT PATH
  * -------------------------- */
+
+ @media only screen and (max-width: 480px) {
+  .site-title {
+  font-size: 25px;
+  }
+ }
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');

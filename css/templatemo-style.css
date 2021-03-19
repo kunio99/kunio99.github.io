@@ -6,6 +6,12 @@ https://templatemo.com/tm-518-sentra
 
 */
 
+@media only screen and (max-width: 480px) {
+  .site-title {
+  font-size: 25px;
+  }
+ }
+
 body {
   font-family: 'Open Sans', sans-serif;
 }

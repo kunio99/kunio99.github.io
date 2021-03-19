@@ -9,6 +9,12 @@
 # General
 --------------------------------------------------------------*/
 
+@media only screen and (max-width: 480px) {
+  .site-title {
+  font-size: 25px;
+  }
+ }
+
 body {
   background: #fff;
   color: #444;

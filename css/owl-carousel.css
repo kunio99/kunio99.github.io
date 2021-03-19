@@ -6,6 +6,13 @@
 /*
  *  Owl Carousel - Core
  */
+
+ @media only screen and (max-width: 480px) {
+  .site-title {
+  font-size: 25px;
+  }
+ }
+
 .owl-carousel {
   display: none;
   width: 100%;

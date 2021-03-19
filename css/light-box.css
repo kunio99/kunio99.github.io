@@ -1,5 +1,11 @@
 /* LIGHT BOX */
 
+@media only screen and (max-width: 480px) {
+  .site-title {
+  font-size: 25px;
+  }
+ }
+
 body:after {
   content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
   display: none;
